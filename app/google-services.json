@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056413987375",
+    "project_id": "recipe-ranger",
+    "storage_bucket": "recipe-ranger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056413987375:android:4a262e858cab942c234cda",
+        "android_client_info": {
+          "package_name": "com.example.reciperanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056413987375-7s8k2vge2su4pc393tnr131u2b20r6rn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reciperanger",
+            "certificate_hash": "26875b0a98432d2a3a06af45cd390c0d33134989"
+          }
+        },
+        {
+          "client_id": "1056413987375-imbega065q7p146chsof8erigc49p3k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAN1bKkf0F7CC9AIS4SJSV00v3OKxfmMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056413987375-imbega065q7p146chsof8erigc49p3k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

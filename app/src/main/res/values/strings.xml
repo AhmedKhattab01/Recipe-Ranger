@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recipe Ranger</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_title">WELCOME TO RECIPE RANGER</string>
+    <string name="welcome_subtitle">Discover new recipes and bring excitement to your meals with Recipe Ranger.</string>
+    <string name="login">Login</string>
+    <string name="cto_login">Sign in to access your favorite recipes and meal plans</string>
+    <string name="ingredients_measures"><![CDATA[Ingredients]]></string>
+</resources>
