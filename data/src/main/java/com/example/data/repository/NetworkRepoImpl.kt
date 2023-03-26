@@ -26,7 +26,15 @@ class NetworkRepoImpl(private val apiService: ApiService) : NetworkRepository {
         return apiService.getMealsByCategoryFromNetwork(category)
     }
 
+    override suspend fun getMealsByAreaFromNetwork(area: String): Response<CategorizedMealsResponse> {
+        return apiService.getMealsByAreaFromNetwork(area)
+    }
+
     override suspend fun getMealDetailsFromNetwork(id: String): Response<MealResponse> {
         return apiService.getMealDetailsFromNetwork(id)
+    }
+
+    override suspend fun getMealsBySearch(strSearch: String): Response<MealResponse> {
+        return apiService.getMealsBySearch(strSearch)
     }
 }

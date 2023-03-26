@@ -22,6 +22,12 @@ interface ApiService {
     @GET("/api/json/v1/1/filter.php")
     suspend fun getMealsByCategoryFromNetwork(@Query("c")  category :String) : Response<CategorizedMealsResponse>
 
+    @GET("/api/json/v1/1/filter.php")
+    suspend fun getMealsByAreaFromNetwork(@Query("a")  area :String) : Response<CategorizedMealsResponse>
+
     @GET("/api/json/v1/1/lookup.php")
     suspend fun getMealDetailsFromNetwork(@Query("i")  id :String) : Response<MealResponse>
+
+    @GET("/api/json/v1/1/search.php")
+    suspend fun getMealsBySearch(@Query("s")  strSearch :String) : Response<MealResponse>
 }

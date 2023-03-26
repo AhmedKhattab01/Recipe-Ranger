@@ -17,5 +17,9 @@ interface NetworkRepository {
 
     suspend fun getMealsByCategoryFromNetwork(category: String): Response<CategorizedMealsResponse>
 
+    suspend fun getMealsByAreaFromNetwork(area: String): Response<CategorizedMealsResponse>
+
     suspend fun getMealDetailsFromNetwork(@Query("i")  id :String) : Response<MealResponse>
+
+    suspend fun getMealsBySearch(@Query("s")  strSearch :String) : Response<MealResponse>
 }
