@@ -47,7 +47,7 @@ class LoginFragment : Fragment() {
 
         // Set click listener for create account button
         binding.btnCreate.setOnClickListener {
-            findNavController().navigate(R.id.action_loginFragment_to_registerFragment)
+            findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToRegisterFragment("",""))
         }
 
         // Inflate the layout for this fragment
